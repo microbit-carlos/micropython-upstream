@@ -65,7 +65,7 @@ STATIC const qstr os_uname_info_fields[] = {
 STATIC const MP_DEFINE_STR_OBJ(os_uname_info_sysname_obj, "pyboard");
 STATIC const MP_DEFINE_STR_OBJ(os_uname_info_nodename_obj, "pyboard");
 STATIC const MP_DEFINE_STR_OBJ(os_uname_info_release_obj, MICROPY_VERSION_STRING);
-STATIC const MP_DEFINE_STR_OBJ(os_uname_info_version_obj, MICROPY_GIT_TAG " on " MICROPY_BUILD_DATE);
+STATIC const MP_DEFINE_STR_OBJ(os_uname_info_version_obj, "micro:bit v2.0.0 on on 2020-06-08; MicroPython " MICROPY_GIT_TAG " on " MICROPY_BUILD_DATE);
 STATIC const MP_DEFINE_STR_OBJ(os_uname_info_machine_obj, MICROPY_HW_BOARD_NAME " with " MICROPY_HW_MCU_NAME);
 STATIC MP_DEFINE_ATTRTUPLE(
     os_uname_info_obj,
